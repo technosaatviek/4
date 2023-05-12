@@ -1,0 +1,64 @@
+body{
+    background: #E2E8DD;
+    font-family: 'Georgia', cursive;
+}
+.header_div{
+    background: #85f6fe;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+   background-color: indianred;
+   text-color: lightgreen;
+}
+.header_div p{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-weight:100;
+    letter-spacing: 1;
+}
+.main_div button{
+    margin-top: 30px;
+    font-family: 'Georgia', sans-serif;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    width: 130px;
+    font-style: italic;
+    margin-top: 10;
+}
+.footer{
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #9ff5799f;
+    line-height: 3;
+    text-shadow: 5px 5px 5px rgb(249, 84, 84);
+    text-underline-position: below;
+    font-style: oblique;
+}
+h4{
+    font-size: 25px;
+}
+
+.animated.gif {
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    animation: animate 1s;
+    size: 1;
+  }
+  
+  @keyframes animate {
+    0% {
+      opacity: 0;
+      transform: scale(.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(.5);
+    }
+  }
